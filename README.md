@@ -20,12 +20,18 @@ Results:
 ___________________________________________________________
 The precision and recall scores for each model were as follows:
 
-Model	          Precision	        Recall
-Logistic Regression	0.95	        0.96
-Decision Tree	    0.92	        0.91
-Random Forest	    0.97	        0.95
-Bagging Classifier	0.96	        0.94
-XGBoost	0.98	0.96
+Model	            * | *  Precision	 * | * Recall
+____________________________________________________
+Logistic Regression*|*	  0.95	      * | *     0.96
+___________________________________________________
+Decision Tree	     * | *  0.92	       * | *    0.91
+___________________________________________________
+Random Forest	     * | *  0.97	       * | *    0.95
+_____________________________________________________
+Bagging Classifier	* | * 0.96	        * | *   0.94
+____________________________________________________
+XGBoost	            * | * 0.98          * | *   0.96
+______________________________________________________________________________________________________________________________________________________________________________________
 These results indicate that all models performed well, with XGBoost achieving the highest precision and recall scores, followed closely by Random Forest and Bagging Classifiers. Logistic Regression also performed admirably, showcasing its robustness even with complex datasets. The Decision Tree classifier, while slightly lower in performance compared to the ensemble methods, still demonstrated strong results.
 
 Visual Representation:
